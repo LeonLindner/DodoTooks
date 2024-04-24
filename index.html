@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacking Console</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="console">
+        <div class="header">
+            <pre id="asciiArt">
+  ____             _     _____           _       
+ |  _ \  ___   ___| | __|_   _|__   ___ | |_ ___ 
+ | | | |/ _ \ / __| |/ _ \| |/ _ \ / _ \| __/ __|
+ | |_| | (_) | (__| | (_) | | (_) | (_) | |_\__ \
+ |____/ \___/ \___|_|\___/|_|\___/ \___/ \__|___/
+                                                  
+            </pre>
+        </div>
+        <div class="output" id="output"></div>
+        <div class="input">
+            <input type="text" id="commandInput" autocomplete="off" placeholder="Type your command here...">
+            <button onclick="executeCommand()">Execute</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
